@@ -1,0 +1,413 @@
+/*
+ ==========================
+
+     PUBLIC STYLE
+ ===========================
+
+*/
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*
+ ==========================
+
+     HEADER STYLE PART1
+ ===========================
+
+*/
+.header1{
+    height: 30em;
+    background-color: rgba(0,0,0,.3);
+}
+
+.head{
+    background-color: white;
+    padding: 10px;
+}
+.cont{
+    width: 80%;
+    margin: auto;
+}
+
+.cont a{
+    text-decoration: none;
+    color: #777;
+    float: left;
+    font-size: 15px;
+
+}
+.cont .tr{
+    padding-top: 5px;
+}
+.cont a:hover{
+    color: #4d8eff;
+}
+.head1 .cont .rel1 ul li a:hover{
+    color: #4d8eff;
+}
+.cont .sel{
+    float: right;
+    margin-bottom: 10px;
+}
+.cont hr{
+    clear: both;
+    
+}
+.cont .sel .sec{
+    border: none;
+    margin-right: 10px;
+    color: #777;
+    padding: 5px 10px;
+    
+}
+.head1{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: all 3s ease-in-out;
+    width: 100%;
+    z-index: 2;
+    
+    
+}
+.head1 .cont {
+    width: 80%;
+    
+  
+}
+.head1 .cont .rel a{
+    text-decoration: none;
+    color: black;
+}
+.head1 .cont .rel a img{
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.head1 .cont .rel{
+    float: left;
+}
+.head1 .cont .rel1{
+   float: right;
+    overflow:hidden;
+    
+}
+.head1 .cont .rel1 ul li a{
+    text-transform: uppercase;
+    color: #000;
+}
+.head1 .cont .rel1 ul li .pr{
+    color: #4d8eff;
+}
+
+.head1 .cont .rel1 ul{
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 24px;
+    
+}
+.head1 .cont .rel1 ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: -7px;
+
+}
+.head1 .cont .rel1 ul li a{
+    padding-bottom: 20px;
+    margin-bottom: -7px;
+}
+.head1 .cont .rel1 li button{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+.head1 .cont .rel1 li button:hover
+{
+    color: #4d8eff;
+}
+
+.active{
+    position: fixed;
+    top: 0;
+ 
+   
+}
+.drow{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 15%;
+    overflow: hidden;
+    clear: both;
+    transition: all 2s ease-in-out;
+    left: 72.2%;
+    top: 23.3%;
+    display: none;
+    
+}
+.dro{
+    top: 11%;
+}
+.drow ul{
+    margin-bottom: 0;
+}
+.drow ul hr{
+    margin: 0;
+}
+.drow ul li{
+    list-style: none;
+}
+.drow ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: #000;
+  
+}
+
+.drow ul li a:hover{
+    background-color: #4d8eff;
+    color: white;
+    text-decoration: none;
+}
+/*
+=========================
+*/
+.drow1{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 15%;
+    overflow: hidden;
+    clear: both;
+    transition: all 2s ease-in-out;
+    left: 77.4%;
+    top: 23.3%;
+    display: none;
+    
+}
+.dro1{
+    top: 11%;
+}
+.drow1 ul{
+    margin-bottom: 0;
+}
+.drow1 ul hr{
+    margin: 0;
+}
+.drow1 ul li{
+    list-style: none;
+}
+.drow1 ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: #000;
+  
+}
+
+.drow1 ul li a:hover{
+    background-color: #4d8eff;
+    color: white;
+    text-decoration: none;
+}
+/*
+ ==========================
+
+     HEADER STYLE PART2
+ ===========================
+
+*/
+.pa{
+    text-align: center;
+    padding-top: 100px;
+}
+.pa h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.pa p span a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    
+}
+.pa p span a span{
+    margin: 0 5px;
+}
+.pa p span a:hover{
+    color: #4d8eff;
+}
+/*
+ ==========================
+
+  body STYLE 
+ ===========================
+
+*/
+
+.inf{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 25%;
+    margin-bottom: 3%;
+}
+.inf h2{
+    font-family: playfair display,serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inf p{
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.btn{
+   
+    border-radius: 0;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #4d8eff;
+}
+/*
+        ======================
+*/
+.but{
+    text-align: center;
+   background-color: rgb(241, 249, 255);
+   margin-bottom: 3%;
+    padding: 20px 0 70px;
+}
+.but h2{
+    font-family: playfair display,serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.but p{
+    font-size: 14px;
+    color: #777;
+    
+    text-align: center;
+    font-weight: 600;
+}
+.but .f2 a img{
+    margin-top: 20%;
+}
+/*
+================================
+
+   style of footer
+
+==================================
+*/
+.over{
+    width: 100%;
+    height: 628px;
+    background-color: rgba(0,0,0,.8)
+}
+.over .ov{
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    padding-top: 7%;
+    margin: auto;
+}
+.over .ov .lala{
+     
+    width: 24%;
+    overflow: hidden;
+
+}
+.over .ov .lala h4{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: playfair display,serif;
+}
+.over .ov .lala p{
+    color: #777;
+    line-height: 2em;
+    font-size: 16px;
+    font-family: roboto,sans-serif;
+    font-weight: 500;
+}
+.over .ov .lala ul{
+    width: 50%;
+    list-style: none;
+    line-height: 40px;
+}
+.over .ov .lala ul a{
+    color: rgb(144, 144, 144);
+}
+.over .ov .lala ul a:hover{
+    color: #fff;
+}
+.over .ov .lala .rob{
+    display: flex;
+    justify-content: space-between;
+}
+.over .ov .lala button{
+    width: 20%;
+    padding: 4px 0 5px;
+    background-color: #4d8eff;
+    border: 2px solid #4d8eff;
+
+}
+.over .ov .lala input{
+    
+    width: 80%;
+    border: 1px solid #777;
+    width: 60%;
+    font-weight: 300;
+    background:transparent;
+    color: #fff;
+    padding:7px 20px;
+    margin-right: -5px;
+ 
+    font-size: 14px;
+}
+.over .ov .lala input::placeholder{
+    color: #fff;
+}
+.over .ov .lala input:focus{
+    background-color: #2d3033;
+    border: .5px solid #4d8eff;
+   
+}
+.over .ov .lala .htm img{
+    margin: 8px 5px 5px 0;
+}
+.over .ove{
+    width: 83%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(144, 144, 144);
+}
+.over .ove a{
+    color: #4d8eff;
+}
+.over .ove ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:10px 
+}

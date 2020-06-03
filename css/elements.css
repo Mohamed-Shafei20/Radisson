@@ -1,0 +1,408 @@
+/*
+ ==========================
+
+     PUBLIC STYLE
+ ===========================
+
+*/
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+    font-weight: 500;
+    color: #777777;
+}
+/*
+ ==========================
+
+     HEADER STYLE PART1
+ ===========================
+
+*/
+.header1{
+    height: 30em;
+    background-color: rgba(0,0,0,.3);
+}
+
+.head{
+    background-color: white;
+    padding: 10px;
+}
+.cont{
+    width: 80%;
+    margin: auto;
+}
+
+.cont a{
+    text-decoration: none;
+    color: #777;
+    float: left;
+    font-size: 15px;
+
+}
+.cont .tr{
+    padding-top: 5px;
+}
+.cont a:hover{
+    color: #4d8eff;
+}
+.head1 .cont .rel1 ul li a:hover{
+    color: #4d8eff;
+}
+.cont .sel{
+    float: right;
+    margin-bottom: 10px;
+}
+.cont hr{
+    clear: both;
+    
+}
+.cont .sel .sec{
+    border: none;
+    margin-right: 10px;
+    color: #777;
+    padding: 5px 10px;
+    
+}
+.head1{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: all 3s ease-in-out;
+    width: 100%;
+    z-index: 2;
+    
+    
+}
+.head1 .cont {
+    width: 80%;
+    
+  
+}
+.head1 .cont .rel a{
+    text-decoration: none;
+    color: black;
+}
+.head1 .cont .rel a img{
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.head1 .cont .rel{
+    float: left;
+}
+.head1 .cont .rel1{
+   float: right;
+    overflow:hidden;
+    
+}
+.head1 .cont .rel1 ul li a{
+    text-transform: uppercase;
+    color: #000;
+}
+.head1 .cont .rel1 ul li .pr{
+    color: #4d8eff;
+}
+
+.head1 .cont .rel1 ul{
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 24px;
+    
+}
+.head1 .cont .rel1 ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: -7px;
+
+}
+.head1 .cont .rel1 ul li a{
+    padding-bottom: 20px;
+    margin-bottom: -7px;
+}
+.head1 .cont .rel1 li button{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+.head1 .cont .rel1 li button:hover
+{
+    color: #4d8eff;
+}
+
+.active{
+    position: fixed;
+    top: 0;
+ 
+   
+}
+.drow{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 15%;
+    overflow: hidden;
+    clear: both;
+    transition: all 2s ease-in-out;
+    left: 72.2%;
+    top: 23.3%;
+    display: none;
+    
+}
+.dro{
+    top: 11%;
+}
+.drow ul{
+    margin-bottom: 0;
+}
+.drow ul hr{
+    margin: 0;
+}
+.drow ul li{
+    list-style: none;
+}
+.drow ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: #000;
+  
+}
+
+.drow ul li a:hover{
+    background-color: #4d8eff;
+    color: white;
+    text-decoration: none;
+}
+/*
+=========================
+*/
+.drow1{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 15%;
+    overflow: hidden;
+    clear: both;
+    transition: all 2s ease-in-out;
+    left: 77.4%;
+    top: 23.3%;
+    display: none;
+    
+}
+.dro1{
+    top: 11%;
+}
+.drow1 ul{
+    margin-bottom: 0;
+}
+.drow1 ul hr{
+    margin: 0;
+}
+.drow1 ul li{
+    list-style: none;
+}
+.drow1 ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: #000;
+  
+}
+
+.drow1 ul li a:hover{
+    background-color: #4d8eff;
+    color: white;
+    text-decoration: none;
+}
+/*
+ ==========================
+
+     HEADER STYLE PART2
+ ===========================
+
+*/
+.pa{
+    text-align: center;
+    padding-top: 100px;
+}
+.pa h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.pa p span a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    
+}
+.pa p span a span{
+    margin: 0 5px;
+}
+.pa p span a:hover{
+    color: #4d8eff;
+}
+/*
+ ==========================
+
+  body STYLE 
+ ===========================
+
+*/
+.col-12 p{
+      
+    font-size: 16px;
+}
+.col-12 h3{
+    color: #000;
+}
+.act{
+    color: #4d8eff;
+}
+.col-1{
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.hand1:hover{
+    color:#007bff;
+    background-color: #fff;
+    cursor: pointer;
+}
+.hand2:hover{
+    color:#28a745;
+    background-color: #fff;
+    cursor: pointer;
+}
+.hand3:hover{
+    color:#17a2b8;
+    background-color: #fff;
+    cursor: pointer;
+}
+.hand4:hover{
+    color:#ffc107;
+    background-color: #fff;
+    cursor: pointer;
+}
+.hand5:hover{
+    color:#dc3545;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.hand7{
+    cursor: not-allowed;
+    background-color: #f8f9fa;
+  
+    cursor: pointer;
+}
+.hand6{
+    
+    background-color: #e6e7e9;
+}
+.hand6:hover{
+    background-color: #fff;
+    color: #000;
+}
+.han{
+    background-color: #f8f9fa;
+    color: black;
+}
+.han:hover{
+    background-color: #fff;
+}
+.han6{
+    
+    background-color: #e6e7e9;
+}
+.han6:hover{
+    background-color: #fff;
+    color: #000;
+}
+.col-12 .disabled{
+    
+    cursor: not-allowed;
+}
+.btn-pill{
+    padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+.han7{
+    cursor: not-allowed;
+    background-color: #f8f9fa;
+  
+    cursor: pointer;
+}
+.pill{
+    border-radius: 5px;
+}
+.han1:hover{
+    color:#007bff;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.han3:hover{
+    color:#17a2b8;
+    background-color: #fff;
+    cursor: pointer;
+}
+.han4:hover{
+    color:#ffc107;
+    background-color: #fff;
+    cursor: pointer;
+}
+.han5:hover{
+    color:#dc3545;
+    background-color: #fff;
+    cursor: pointer;
+}
+.ll:hover{
+    color:#28a745;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.hor{
+    margin-left: 20px; 
+    
+}
+.container .row .col-12 .media .hor p{
+     
+    color: #777;
+}
+.hor1{
+    margin-right: 20px; 
+    
+}
+.container .row .col-12 .media .hor1 p{
+    color: #777;
+}
+h5{
+    color: #000;
+}
+p{
+    color: #777
+}
+.hor2 p{
+    margin-left: 20px;
+}
+.oner img{
+    margin-right: 10px;
+}
+.pte{
+    margin-top: 30px;
+}
+h3{
+    color: black;
+}
